@@ -1,5 +1,5 @@
 import ShowData from "./components/ShowData";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
   const check = (e) => {
     setData(null);
     e.preventDefault();
-    if (start == "") {
+    if (start === "") {
       setError("Please Choose Start Date");
-    } else if (end == "") {
+    } else if (end === "") {
       setError("Please Choose End Date");
     } else if (end < start) {
       setError("Start Date Should Be Before End Date");
