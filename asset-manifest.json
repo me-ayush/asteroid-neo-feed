@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/asteroid-neo-feed/static/js/main.34fea2de.js",
+    "main.js": "/asteroid-neo-feed/static/js/main.f9a9d65f.js",
     "index.html": "/asteroid-neo-feed/index.html",
-    "main.34fea2de.js.map": "/asteroid-neo-feed/static/js/main.34fea2de.js.map"
+    "main.f9a9d65f.js.map": "/asteroid-neo-feed/static/js/main.f9a9d65f.js.map"
   },
   "entrypoints": [
-    "static/js/main.34fea2de.js"
+    "static/js/main.f9a9d65f.js"
   ]
 }
