@@ -80,6 +80,7 @@ function ShowData(props) {
     datasets: [
       {
         label: "Asteroid",
+        fontColor: ["black"],
         data: dates_obj.map((data) => data.ast),
         backgroundColor: [
           "rgba(255, 99, 132, 0.6)",
@@ -91,11 +92,9 @@ function ShowData(props) {
           "rgba(116, 255, 99, 0.6)",
           "rgba(99, 111, 255, 0.6)",
         ],
-        xAxisID: "Jello",
-        yAxisID: "ok",
         borderColor: "black",
         borderWidth: 1.5,
-      },
+      }
     ],
   });
 
@@ -104,7 +103,7 @@ function ShowData(props) {
   });
 
   return (
-    <>
+    <div className="data-bg">
       <div className="table">
         <table width={`100%`}>
           <tr>
@@ -138,7 +137,7 @@ function ShowData(props) {
       <div className="chart">
         <Bar data={chartData} />
       </div>
-    </>
+    </div>
   );
 }
 

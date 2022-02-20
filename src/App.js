@@ -54,6 +54,8 @@ function App() {
   const toSend = [data, start, end, isLoading];
   return (
     <>
+    <div className="main">
+
       <div className="container">
         <h1>Asteroid Neo Feed</h1>
         <form onSubmit={check}>
@@ -78,6 +80,7 @@ function App() {
         <p id="loading">{isLoading}</p>
         {data ? <ShowData data={toSend} /> : <p className="error">{error}</p>}
       </div>
+    </div>
     </>
   );
 }
